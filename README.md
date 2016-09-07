@@ -8,7 +8,7 @@
 
 **Solución**
 
-Con el código inicial obteniamos el número 2 en cada iteración(ya que como variable global su valor asignado era cero), sin embargo para poder obtener los resultados solicitados era necesario eliminar la variabe global y ponerla como parametro de la función anónima; de esta manera se obtienen los resultados deseados.
+Con el código inicial obteniamos el número 2 en cada iteración(ya que como variable global su valor asignado era cero), sin embargo para poder obtener los resultados solicitados era necesario eliminar la variabe global y ponerla como paràmetro de la función anónima; de esta manera se obtienen los resultados deseados.
 
 
 ![Sin titulo](http://i67.tinypic.com/j5jspw.png)
@@ -31,7 +31,7 @@ Al tener el mismo nombre la variable local y global, la que obtiene mayor preced
 
 **Solución**
 
-Para desarrollar este ejercicio primero tenemos que crear un form en html en el que asignemos dos inputs (segundos e inicio) y crear un boton para poder enviar los datos obtenidos, una vez hecho esto podemos trabajar con nustro main.js(en mi caso). En el main.js ingresamos dos variables (segundos e inicio) para obtener los datos ingresados por el usuario, tambien creamos nuestra función en la cual tenemos como parametros los nombres de las variables mencionadas además utilizamos la función setInterval para mostrar el intervalo entre segundos indicados por el usuario. 
+Para desarrollar este ejercicio primero tenemos que crear un form en html en el que asignemos dos inputs (segundos e inicio) y crear un boton para poder enviar los datos obtenidos, una vez hecho esto podemos trabajar con nuestro main.js(en mi caso). En el main.js ingresamos dos variables (segundos e inicio) para obtener los datos ingresados por el usuario, tambien creamos nuestra función en la cual tenemos como parametros los nombres de las variables mencionadas además utilizamos la función setInterval para mostrar el intervalo entre segundos indicados por el usuario. 
 
 
 
