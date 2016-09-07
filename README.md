@@ -23,7 +23,7 @@ Con el código inicial obteniamos el número 2 en cada iteración(ya que como va
 
 **Solución**
 
-Al tener el mismo nombre la variable local y global, la que obtiene mayor precedencia es la variable local por lo tanto el resultado no es el deseado, para obtenerlo solo basta cambiar el valor asignado a las variables.
+Debido al hoisting obtenemos que la variable feature esta indefinida es por ello que la condicional se ejecuta. Para poder obtener el resultado correcto basta eliminar el "var" local; al no estar declarada la variable local, la que obtiene mayor precedencia es la variable global por lo tanto esta  pasa a ejecutarse.
 
 ###Ejercicio 3
 
