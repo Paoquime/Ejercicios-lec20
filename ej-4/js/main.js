@@ -9,8 +9,8 @@ setInterval (changeColor, intervalo*1000);
 
 function changeColor(){
 
-	var change = "#"+Math.floor(Math.random()*16777215).toString(16);
-	document.body.style.backgroundColor=change;
+	var colorHex = "#"+Math.floor(Math.random()*16777215).toString(16);
+	document.body.style.backgroundColor=colorHex;
 }
 
 });
